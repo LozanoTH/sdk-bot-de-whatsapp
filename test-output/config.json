@@ -1,0 +1,34 @@
+{
+  "firebase_url": "https://app-store-88307-default-rtdb.firebaseio.com",
+  "titulo": "Formulario",
+  "titulo_formulario": "Ingresa tus datos",
+  "bg_color": "#f0f2f5",
+  "accent_color": "#007bff",
+  "accent_shadow": "rgba(0,123,255,0.15)",
+  "campos": [
+    {
+      "id": "nombre",
+      "label": "Nombre completo",
+      "type": "text",
+      "required": true
+    },
+    {
+      "id": "correo",
+      "label": "Correo electr\u00f3nico",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "telefono",
+      "label": "Tel\u00e9fono",
+      "type": "tel",
+      "required": false
+    },
+    {
+      "id": "mensaje",
+      "label": "Mensaje",
+      "type": "textarea",
+      "required": false
+    }
+  ]
+}
