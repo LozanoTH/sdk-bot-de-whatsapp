@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="card" id="formCard">
+      <h2>Ingresa tus datos</h2>
+      <form id="formDatos">
+        <div id="camposDinamicos"></div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </form>
+    </div>
+
+    <div id="resultCard" class="card hidden">
+      <h2>✅ Datos guardados</h2>
+      <p id="resultMsg"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
