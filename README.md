@@ -1,4 +1,4 @@
-## skd-bot-de-whatsapp
+## whatsapp-sdk
 
 SDK orientado a la creación de herramientas compatibles con bots de WhatsApp.
 
